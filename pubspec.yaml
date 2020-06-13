@@ -1,0 +1,47 @@
+name: inappcalling
+description: A new Flutter plugin that exposes and enables in app voice and video calling logic&#x2F;features in dart using agora.
+version: 0.0.1
+author:
+homepage:
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: 3.0.8
+  dio_http2_adapter: ^1.0.0
+  cloud_firestore: ^0.13.4+2
+  firebase_auth: ^0.16.1
+  firebase_messaging: ^6.0.9
+  video_player: 0.10.5+2
+  uuid: ^2.0.4
+  permission_handler: ^5.0.0+hotfix.9
+  agora_rtc_engine: ^1.0.11
+  flutter_incall: ^1.0.0
+  flutter_voip_push_notification: ^0.0.3
+  flutter_call_kit: ^0.0.2
+  animated_widgets: ^1.0.6
+  cached_network_image: ^2.0.0
+  path: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  # This section identifies this Flutter project as a plugin project.
+  # The androidPackage and pluginClass identifiers should not ordinarily
+  # be modified. They are used by the tooling to maintain consistency when
+  # adding or updating assets for this project.
+  plugin:
+    androidPackage: com.maugost.inappcalling
+    pluginClass: InappcallingPlugin
+
+  assets:
+    - assets/
